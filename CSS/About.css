@@ -86,7 +86,7 @@ img{
 .Left img{
     float: left;
     border-color: white;
-    margin-top:20px ;
+    margin-top:30px ;
     animation-name: just-rotate-L;
     animation-duration: 1.5s;
 }
