@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="Javascript/index.js"></script>
+    <style>
+      @media screen and (max-width: 960px){
+        #fruit{
+          columns: 10;
+        }
+        .img4{
+          margin-left: 20%;
+        }
+      };
+    </style>
+</head>
+
+<body>
+    <div class="header" style="color: white;text-align: center;"><H1>Yuan Ze Toilet</H1></div> <!--  上方的Title  -->
+    <div id="container">
+      <canvas id="mycanvas" width="1600px" height="250px" style="margin-left: 30px;"></canvas>
+      <div id="animate">
+          <div id="fruit" class="row">
+            <div class="img i1 col-sm" >
+              <a href="About.html"><img class="photo p1"src="media/Home-img/apple-2.png" alt="About"></a>
+              <span class="span s1"></span>
+            </div>
+            <div class="img i2 col-sm">
+             <a href="Content.html"><img class="photo p2"src="media/Home-img/cake.png" alt="Content"></a>
+              <span class="span s2"></span>
+            </div>
+            <div class="img i3 col-sm">
+              <a href="Report.html"><img class="photo p3"src="media/Home-img/rock.jpg" alt="Report"></a>
+              <span class="span s3"></span>
+            </div>
+          </div>
+        <div class="img4 m4">
+          <img class="to l1"src="media/Home-img/YZT.png" alt="">
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
